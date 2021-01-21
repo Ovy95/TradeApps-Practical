@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+footer{
+  text-align: right;
+  color: white;
+  padding-right: 40px;
+  background: rgba(6, 6, 120, 0.92);
+  padding: 2vh;
+}
+
+
+.top,.bottom{
+  background: 100%;
+}
+
+.top{
+  height: 48vh;
+  background: rgba(6, 6, 120, 0.92);
+}
+
+.bottom{
+  height: 48vh;
+  background: black;
+}
+/* .wrapper{
+  width: 90;
+  margin: 0 auto;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 40% 20% 40%;
+}
+
+.item{
+
+  background: blue;
+  color: brown;
+  padding: 10px;
+}
+
+.item:nth-child(even){
+  background: aquamarine;
+} */
