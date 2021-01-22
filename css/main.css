@@ -5,12 +5,35 @@
 } *
 
 footer{
+  font-size: 20px;
+  padding-top: 10px;
   text-align: right;
   color: white;
-  padding-right: 20%;
+  padding-right: 16%;
   background: rgba(6, 6, 120, 0.92);
   height: 6vh;
 }
+
+a.Footer{
+  padding: 10px;
+  color: white;
+}
+a.Footer:link{
+  text-decoration: none;
+}
+
+a.Footer:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+
+
+
+
+
+
+
 .parent {
   
   height :94vh;
