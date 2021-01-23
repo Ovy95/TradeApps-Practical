@@ -140,6 +140,13 @@ input#Div1button{
   }
 /* DIV 5 */
 /* DIV 5 */
+.div3{
+ 
+}
+.div4,.div5{
+  /* margin-bottom: 10%; */
+
+}
   .div5{
     
     /* padding-left: 1%; */
@@ -157,8 +164,11 @@ input#Div1button{
   .div5emailLabel{
 padding-left: 5%;
   }
-.div5buttoninput {
-    colour:#2083fe;
+
+.div5button {
+ padding: 8px; 
+    height: 40px;
+  
 }
   
 input[type="submit"] {
@@ -166,6 +176,13 @@ input[type="submit"] {
   background-color: #2083fe;
   border-radius: 4px;
   border-color: transparent;
+}
+
+textarea#subject,input#fname,input#email{
+  margin-left: 1%;
+  border-color:transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
 }
   
 
