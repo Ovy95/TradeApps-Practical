@@ -6,7 +6,7 @@
   font-family: 'Lato', sans-serif;
 } *
 /* Footer  */
-footer{
+header{
   font-size: 20px;
   padding-top: 10px;
   text-align: right;
@@ -16,15 +16,16 @@ footer{
   height: 6vh;
 }
 
-a.Footer{
+
+a.Header{
   padding: 10px;
   color: white;
 }
-a.Footer:link{
+a.Header:link{
   text-decoration: none;
 }
 
-a.Footer:hover{
+a.Header:hover{
   text-decoration: underline;
   text-decoration-color: white;
 }
@@ -34,7 +35,6 @@ a.Footer:hover{
 
 div.div1title{
   padding-top: 5%;
-
   font-size: 37px;
   text-size-adjust: 30;
   width: 530px;
@@ -59,17 +59,34 @@ input#Div1button{
   background-color: #2083fe;
 }
 
-.parent {
-  
+/* .parent {
   height :94vh;
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color:white;
-  }
+  } */
+  .parent {
+
+
+    /* height :99%;  */
+    /* height: fit-content; */
+    display: grid;
+    /* grid-template-rows: repeat(2, 28%) 16% 23% 5%; */
+    grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 1.35fr) .8fr 1.2fr 20px; 
+    /* grid-template-rows: repeat(2, 1fr) .8fr 1.2fr 1%; */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+
+  .div6 { grid-area: 5 / 1 / 6 / 4; }
+
+
+
 
   .div1,.div2{
     background-color: rgb(30, 46, 80);
@@ -92,16 +109,56 @@ input#Div1button{
 
   .div2 { grid-area: 1 / 3 / 3 / 4;
     border: 1px solid yellowgreen; 
-    padding-right: 25%;
-    padding-top: 10%;
   }
+  
+  
+  .div2Text{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #556382;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+.first::placeholder{
+  color: black;
+}
+.second::placeholder{
+  color: #556382;
+}
+
+  .first,.second{
+    /* margin-left: 10%; */
+    /* width: auto; */
+    padding: 3%;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    /* height: 30%; */
+  }
+  .first {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 
 
+    border-color:grey;
+    /* width : 40%; */
+    border-right-color: grey;
+  }
+  .second {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-left:-10px;
+    border-color:grey;
+  }
   .white-box{
-   width: 350px; height: 200px; 
+    border-radius: 4px;
+    width: 340px; height: 280px; 
     background:white;
-    padding: 10px;
-    align-content: center;
+    padding: 15px;
   }
   /* DIV 3 */
   /* DIV 3 */
@@ -144,9 +201,7 @@ input#Div1button{
 }
 /* DIV 5 */
 /* DIV 5 */
-.div3{
- 
-}
+
 .div4,.div5{
   /* margin-bottom: 10%; */
 
