@@ -1,31 +1,6 @@
 /* THis is all the old Css  */
 
 
-
-          header{
-            font-size: 20px;
-            padding-top: 10px;
-            text-align: right;
-            color: white;
-            padding-right: 17%;
-            background: rgb(30, 46, 80);
-            height: 6vh;
-          }
-
-
-          a.Header{
-            padding: 10px;
-
-          }
-          a.Header:link{
-            text-decoration: none;
-          }
-
-          a.Header:hover{
-            text-decoration: underline;
-            text-decoration-color: white;
-          }
-
           /* Div 1  */
 
 

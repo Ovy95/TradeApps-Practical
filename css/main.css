@@ -5,7 +5,8 @@
   outline-color: whitesmoke;
   /* outline-color: #2083fe; */
   font-family: 'Lato', sans-serif;
-  background-color: white;
+
+
 } 
 
 /* Div Boarders Top half*/
@@ -21,7 +22,7 @@
   }
 
 .navbar { grid-area: 1 / 5 / 2 / 7; }
-.div2 { grid-area: 2 / 2 / 4 / 4; }
+.div1 { grid-area: 2 / 2 / 4 / 4; }
 .div3 { grid-area: 2 / 5 / 4 / 7; }
 .div4 { grid-area: 4 / 3 / 5 / 6; }
 .div5 { grid-area: 5 / 2 / 6 / 4; }
@@ -36,11 +37,11 @@
 .div14 { grid-area: 5 / 1 / 7 / 2; }
 .div15 { grid-area: 6 / 2 / 7 / 7; }
 
-.navbar,.navbarID,.div2,.div3,.div7,.div8,.div9,.div10{
+.navbar,.navbarID,.div1,.div3,.div7,.div8,.div9,.div10{
             border: 1px solid yellowgreen;
             background-color: rgb(30, 46, 80);
 } 
-.div4,.div5,.div6,.div11,.div12,.div13,.div15{
+.div4,.div5,.div6,.div11,.div12,.div13,.div14,.div15{
   border: 1px solid red;
   background-color: white;
 } 
@@ -72,4 +73,33 @@ button.button{
   background-color:white;
   border-color: blue;
   font-family: 'Lato', sans-serif;
+  padding: 5px;
+}
+
+/* DIV 1  */
+
+div.div1title{
+  padding-top: 20%;
+  font-size: 30px;
+
+  width: 375px;
+  color: white;
+}
+
+div.div1content{
+  color: #6d80a9
+}
+
+input#divEmail1{
+  height: 37px;
+  width: 63%;
+}
+div.div1button{
+  padding-right: 10px;
+}
+input#Div1button{
+  height: 40px;
+  width: 1.4cm;
+  color: white;
+  background-color: #2083fe;
 }
