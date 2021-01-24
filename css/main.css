@@ -111,10 +111,14 @@ input#Div1button{
     border: 1px solid yellowgreen; 
   }
   
-  
+  .form-group{
+    margin-left: 2.5%;
+  }
   .div2Text{
+
     font-weight: bolder;
     font-size: 20px;
+
     color: #556382;
     font-family: 'Lato', sans-serif;
     padding-top: 10px;
@@ -128,9 +132,10 @@ input#Div1button{
 }
 
   .first,.second{
+    width: 44%;
     /* margin-left: 10%; */
     /* width: auto; */
-    padding: 3%;
+    padding: 2%;
     font-family: 'Lato', sans-serif;
     color: black;
     /* height: 30%; */
@@ -157,15 +162,24 @@ input#Div1button{
 .covTextdiv2{
   padding-top: 10px;
   font-size: 18px;
+  padding-bottom: 10px;
 }
   .covText{color:rgb(30, 46, 80);}
   .covText2{ color:#2083fe;}
 
+input#Div2Button{
+  padding-top: 10px;
+  margin-left: 1%;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  padding: 12px;
+  width: 97%;
+}
 
-  
   .white-box{
+
     border-radius: 4px;
-    width: 340px; height: 280px; 
+    width: 360px; height: 280px; 
     background:white;
     padding: 15px;
   }
