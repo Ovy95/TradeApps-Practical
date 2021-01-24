@@ -154,6 +154,15 @@ input#Div1button{
     margin-left:-10px;
     border-color:grey;
   }
+.covTextdiv2{
+  padding-top: 10px;
+  font-size: 18px;
+}
+  .covText{color:rgb(30, 46, 80);}
+  .covText2{ color:#2083fe;}
+
+
+  
   .white-box{
     border-radius: 4px;
     width: 340px; height: 280px; 
