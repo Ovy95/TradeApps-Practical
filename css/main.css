@@ -20,7 +20,7 @@
   border: 1px solid yellowgreen;
   }
 
-.div1 { grid-area: 1 / 5 / 2 / 7; }
+.navbar { grid-area: 1 / 5 / 2 / 7; }
 .div2 { grid-area: 2 / 2 / 4 / 4; }
 .div3 { grid-area: 2 / 5 / 4 / 7; }
 .div4 { grid-area: 4 / 3 / 5 / 6; }
@@ -36,7 +36,7 @@
 .div14 { grid-area: 5 / 1 / 7 / 2; }
 .div15 { grid-area: 6 / 2 / 7 / 7; }
 
-.div1,.div2,.div3,.div7,.div8,.div9,.div10{
+.navbar,.navbarID,.div2,.div3,.div7,.div8,.div9,.div10{
             border: 1px solid yellowgreen;
             background-color: rgb(30, 46, 80);
 } 
@@ -44,3 +44,32 @@
   border: 1px solid red;
   background-color: white;
 } 
+
+/* Navbar CSS */
+.navbarID{
+  padding-top: 4px;
+  float:right;
+  font-size: 13px;
+}
+.Navbar{
+  text-align: right;
+  color: white;
+  background-color: rgb(30, 46, 80);
+  padding-top: 10px;
+}
+a.Navbar{
+  padding: 20px;
+}
+a.Navbar:link{
+  text-decoration: none;
+}
+
+a.Navbar:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+button.button{
+  background-color:white;
+  border-color: blue;
+  font-family: 'Lato', sans-serif;
+}
