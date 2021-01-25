@@ -9,16 +9,9 @@
 } 
 
 /* Div Boarders Top half*/
-
-
 @media (max-width: 600px) {
   
-  /* .div2,.div6,.div7,.div8,.div9,.div10,.div11,.div12,.div13,.div14,.div15{
-    display: none;
-
-  } */
   .container{
-  
     display: flex;
     width: 100%;
     display: flex;
@@ -26,9 +19,7 @@
     flex-direction: row;
 
   }
-
   .div.nav.navbar.navbarID{
-
   width: 100%;
   order: 5;
   flex: 1 0 100%;
@@ -48,9 +39,7 @@
   order: 2;
   flex: 1 0 100%;
 }
-
-
-  /* div.navbar,.navbarID,.div1.div2,.div3,.div4.div5.div6{
+  /* div.navbar,.navbarID,.div1.div2,.div3,.div4.div5{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -65,7 +54,7 @@
 @media (min-width: 601px) {
 
 }
-/* grid-template-columns: 15.78% repeat(5, 1fr) 15.78%; */
+
 .container {
   height: 100vh;
   display: grid;
@@ -74,23 +63,12 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 
-
-
-
-
-  /* display: grid;
-  grid-template-columns: 15.78% repeat(2, 1fr) 10% repeat(2, 1fr) 15.78%;
-  
-  grid-template-rows: 5% repeat(2, 25%) 15% 28% 5%;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  border: 1px solid yellowgreen; */
   /* @media only screen and (max-width: 1200px){
     font-size: 24px;
   } */
   }
 
-/* .navbar { grid-area: 1 / 1 / 2 / 8;  } */
+
 
 .navbar { grid-area: 1 / 1 / 2 / 9; }
 .div1 { grid-area: 2 / 1 / 4 / 5; }
@@ -99,44 +77,11 @@
 .div4 { grid-area: 5 / 1 / 6 / 3; }
 .div5 { grid-area: 5 / 3 / 6 / 9; }
 
-
-
-
-
-
-/* .div1 { grid-area: 2 / 2 / 4 / 4; }
-.div2 { grid-area: 2 / 5 / 4 / 7; }
-.div3 { grid-area: 4 / 3 / 5 / 6; }
-.div4 { grid-area: 5 / 2 / 6 / 3; }
-.div5 { grid-area: 5 / 3 / 6 / 7; }
-
-
-
-
-/* .div6 { grid-area: 1 / 1 / 2 / 5; } */
-/* .div8 { grid-area: 2 / 1 / 4 / 2; }
-.div9 { grid-area: 2 / 4 / 4 / 5; } */
-/* .div10 { grid-area: 1 / 7 / 4 / 8; } */
-/* .div11 { grid-area: 4 / 1 / 5 / 3; }
-.div12 { grid-area: 4 / 6 / 5 / 8; }
-.div13 { grid-area: 5 / 7 / 7 / 8; }
-.div14 { grid-area: 5 / 1 / 7 / 2; }
-.div15 { grid-area: 6 / 2 / 7 / 7; }  */ 
-
-/* before grid code
-.div4 { grid-area: 5 / 2 / 6 / 4; }
-.div5 { grid-area: 5 / 4 / 6 / 7; }
-*/
-
-
-
-
-
-.navbar,.navbarID,.div1,.div2,.div6,.div8,.div9,.div10{
+.navbar,.navbarID,.div1,.div2{
             border: 1px solid yellowgreen;
             background-color: rgb(30, 46, 80);
 } 
-.div3,.div4,.div5,.div11,.div12,.div13,.div14,.div15{
+.div3,.div4,.div5{
   border: 1px solid red;
   background-color: white;
 } 
@@ -198,9 +143,7 @@ button.button{
   padding-top: 15%;
 }
 div.div1title{
-
   font-size: 42px;
-  /* width: 375px; */
   color: white;
 }
 
@@ -219,17 +162,13 @@ input#divEmail1{
 }
 
 button.Div1Button{
-
   margin-left: 1%;
   border-radius: 4px;
-
   height: 43px;
   width: 10%;
   color: white;
   background-color: #2083fe;
   border: transparent;
-
-
 }
 
 
@@ -239,9 +178,7 @@ button.Div1Button{
 
 .white-box{
   margin-left: 40%;
- 
   border-radius: 4px;
-
   background:white;
 
 }
@@ -306,7 +243,6 @@ margin-top: 2%; }
 
 div.div3title{
   font-size: 41px;
-
   text-size-adjust: 30;
   color: #1e2e50
 
@@ -328,11 +264,7 @@ i.fas.fa-map-marker,i.fas.fa-phone,i.fas.fa-envelope {
   color:#2083fe;
   padding-right: 10px;
   }
-  /* .div4 { 
-    padding-left: 40%;
-    width: 100%;
-    height: 100%;
-    border: 1px solid yellowgreen; } */
+
 
 div.div4title  {
 font-size: 20px;
@@ -349,15 +281,9 @@ font-family: 'Lato', sans-serif;
 
 .div5{
   margin-left: 12.5%;
-
-  /* padding-left: 1%; */
-
 }
 
-/* .div5 { 
-  margin-right: 2%;
-  border: 1px solid yellowgreen; }
-     */
+
 .div5nameLabel,.div5emailLabel{
 
   font-size: 17px;
