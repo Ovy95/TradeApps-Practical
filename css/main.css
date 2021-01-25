@@ -267,6 +267,7 @@ padding-left: 26%;
 
 input#fname,input#email{
   padding-top: 20px;
+  background-color: palegreen;
   width: 45%;
   padding: 0px;
 }
