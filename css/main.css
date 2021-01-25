@@ -18,13 +18,17 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   border: 1px solid yellowgreen;
+  /* @media only screen and (max-width: 1200px){
+    font-size: 24px;
+  } */
+
+
   }
 
 .navbar { grid-area: 1 / 5 / 2 / 7; }
 .div1 { grid-area: 2 / 2 / 4 / 4; }
 .div2 { grid-area: 2 / 5 / 4 / 7; }
 .div3 { grid-area: 4 / 3 / 5 / 6; }
-
 .div4 { grid-area: 5 / 2 / 6 / 3; }
 .div5 { grid-area: 5 / 3 / 6 / 7; }
 
@@ -135,7 +139,7 @@ input#Div1button{
 .white-box{
   float:right;
   border-radius: 4px;
-  width: 300px; height: 225px; 
+  width: 300px; height: 325px; 
   background:white;
   padding: 15px;
 }
@@ -267,7 +271,6 @@ padding-left: 26%;
 
 input#fname,input#email{
   padding-top: 20px;
-  background-color: palegreen;
   width: 45%;
   padding: 0px;
 }

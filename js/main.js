@@ -1,7 +1,7 @@
 console.log("link from main")
 
 $(document).ready(function(){
-  $(".div5button").click(function(event){
+  // $(".div5button").click(function(event){
     
     console.log('Clicked button')
 
@@ -34,11 +34,3 @@ $(document).ready(function(){
 
   });
 });
-
-
-$(document).ready(function(){
-  $("p").click(function(){
-    $(this).hide();
-  });
-});
-
