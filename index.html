@@ -5,6 +5,9 @@
 
   <meta charset="utf-8">
   <title>Trade Apps Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -18,7 +21,7 @@
 
 <body>
 
-  <div class="parent">
+  <div class="container">
     <div class="navbar"> 
         <ul class="navbarID">
             <a title="Home" class="Navbar" href="index.html">Home</a>
@@ -35,13 +38,15 @@
 
 
         <div class="div1content"><br>
-          <p>Fast and secure way to purchase or exchange 150+ 
-          <br>cryptocurrencies</p>
-          <br>
+          <p class="div1Pa">Fast and secure way to purchase or exchange 150+ 
+          </p><p class="div1Pb">cryptocurrencies</p>
+
         </div>
           <div class="div1Input">
           <input type="email1" class="div1Email" id="divEmail1" name="email1" placeholder="     Subscribe Now"> 
-          <input type="submit" class="Div1Button"id="Div1button" value="->">
+
+          <button class="Div1Button"><i class="fas fa-arrow-right"></i></button>
+
           </div>
       </div>
 
@@ -56,23 +61,22 @@
                   <tr>
                 <form name="converter">
 
-                  <div class="div2Text">Send</div>
+                  <div class="div2Text">Send
 
                   <tr>
                   <input type="text"  placeholder="  USD" class="currency"/>
                   <input type="text"  placeholder="0.0214 BTC" class="currValue"  onChange="dollarConverter()" name="dollar"/>
 
                   </tr>
-
-                  <div class="div2Text">Receive</div>
+                </div>
+                  <div class="div2Text">Receive
 
                   <tr>
                   <input type="text"  placeholder="  BTC" class="currency"/>
                   <input type="text"  placeholder="0.0214 BTC" class="currValue" onChange="btcConverter()" name="btc"/>
 
-                
-
                   </tr>
+                </div>
                 </table>
                 </form>
 
@@ -85,7 +89,6 @@
               <input type="submit" id="Div2Button"  value="Buy Now">
             </div>
 
-       
           </div>
       </div>
 </div>
@@ -131,184 +134,16 @@
     </div>
 
 
-    <div class="div6">7 </div>
-    <div class="div8">8
-      
-    this div again
-  
-
-  
-  </div>
-
+    <!-- <div class="div6">7 </div>
+    <div class="div8">8 </div>
     <div class="div9">9 </div>
     <div class="div10">10 </div>
     <div class="div11">11 </div>
     <div class="div12">12 </div>
     <div class="div13">13 </div>
     <div class="div14">14 </div>
-    <div class="div15">15 </div>
-
-
-
+    <div class="div15">15 </div> -->
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
-
-
-
-
-  
-  <!-- <div class="parent">
-    <header>
-      <ul class="footerID">
-        <a title="Home" class="Header" href="index.html">Home</a>
-        <a title="App" class="Header" href="">Price</a>
-        <a title="App" class="Header" href="">App</a>
-        <a title="DashBoard" class="Header" href="">Dashboard</a>
-        <button class="w3-button w3-white w3-border w3-border-blue" style="padding: 5px;">Sign In</button>
-  </ul>
-    </header>
-        <div class="div1">
-          <br>
-          <br>
-          
-
-          <br>
-          <div class="div1title"> <p>Buy and sell cryptocurrency</p></div>
-
-
-        <div class="div1content"><br>
-          <p>Fast and secure way to purchase or exchange 150+ 
-          <br>cryptocurrencies</p>
-          <br>
-
-        </div>
-      
-        <input type="email1" id="email1" name="email1" placeholder="     Subscribe Now">
-        <input type="submit" id="Div1button" value="->">
-      </div>
-        
-        
-        <div  class="div2">
-          <br>
-          <br><br><br>
-        
-          <div class="white-box">
-
-
-              <div class="form-group">
-                <div class="div2Text">Send</div>
-                <input type="text"  placeholder="  USD" class="first"/>
-                <input type="number"  placeholder="0.0214 BTC" class="second"/>
-              
-                <div class="div2Text">Receive</div>
-                <input type="text"  placeholder="  BTC" class="first"/>
-                <input type="number"  placeholder="0.0214 BTC" class="second"/>
-              
-                <div class="covTextdiv2">
-                  <span class="covText">USD ~ 0.000088 BTC</span>&nbsp;<span class="covText2">Expected rate <br>No extra fees</span>
-                </div>
-    
-    
-                
-              
-              
-              </div>
-
-              <div class="div2Submitbutton">
-                <input type="submit" id="Div2Button"  value="Buy Now">
-              </div>
-              
-
-
-
-
-
-
-
-              
-          </div>
-          <!-- End of Div 2 -->
-        <!-- </div>
-
-
-
-          <div class="div3">
-            <div class="div3content"><p>Ask Question |||DIV 3</p></div>
-            <div class="div3title"> <p>Let us hear from you directly!</p></div>
-          </div>
-
-        <div class="div4">
-          <div class="div4title"> <p>Address</p></div>
-          <div class="div4text">
-          <i class="fas fa-map-marker"></i>
-          
-         Dartford, Kent<br> <br>
-           <i class="fas fa-phone"></i> 
-         02036331775<br> <br>
-
-         <i class="fas fa-envelope">  </i>  hello@example.com <br>
-          </div>
-        </div>
-
-        <div class="div5">
-          <form action="/index.html">
-            <div class="div5labels">
-            <label class="div5nameLabel"  for="fname">Full name</label>  
-            <label class="div5emailLabel" for="email">Email</label>
-          </div>
-
-            <div class="div5inputs">
-            <input type="text" id="fname"  name="fname" placeholder="Full name">
-            <input type="email" id="email" name="email" placeholder="hello@domain.com"><br>
-
-
-   <br>
-   
-    <textarea id="subject" name="subject" placeholder="Tell us what we can help you with!"></textarea>
-  </div>
-
-  <br>
-    <input type="submit" class="div5button" value="Send Message">
-  
-           
-          </form> 
-        </div> 
-      
-      
-      -->
-
-
-
-  <!-- <div class="div6"> </div> -->
-
-
-    <!-- </div>  -->
-  
-
-
 
 </html>
