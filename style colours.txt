@@ -1,5 +1,0 @@
-Buttons  = #2083fe
-background = #1e2e50
-
-
-div 1 text = #6d80a9
