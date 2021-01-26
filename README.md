@@ -16,10 +16,11 @@ We recommend that you try to create the website without any CSS Frameworks, I.E 
 
 
 ## Image to recreate
+![Website](https://user-images.githubusercontent.com/57540755/105889373-ff581e00-6005-11eb-8b75-a43842653cd1.png)
 
-```
-
-```
+Best viewing Dimentions 
+1200x800
+620 width for RWD
 
 ## Features Implemented 
 - ContactForm is responsive 
