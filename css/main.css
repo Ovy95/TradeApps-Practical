@@ -22,18 +22,7 @@ For typical desktop
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
 //CSS Code
 }
-For large desktop
-@media only screen and (min-width: 1200px) {
-//CSS Code
-}
-
-
-
-
-
-
-
-*/
+/* /*   */
 
 
 
@@ -75,68 +64,54 @@ For large desktop
 /* Div Boarders Top half*/
 @media (max-width: 620px) {
   
-  .container{
+    .container{
 
-    flex-direction: column;
-    overflow-y: scroll;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
+      flex-direction: column;
+      overflow-y: scroll;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
 
-  .topsection,.bottomSection{
-    align-content: center;
-    flex-direction: column;
-  }
+    .topsection,.bottomSection{
+      align-content: center;
+      flex-direction: column;
+    }
   
-.div1{
- display: grid;
-}
+    .div1{
+    display: grid;
+    }
 
-
-  
-
-.div3{
-
-  order: 1;
-  flex: 1 0 100%;
-}
-.div4{
-  margin-left:auto;
-  margin-right: auto;
-  order: 0;
-  flex: 1 0 50%;
-}
-.div5{
-
-  flex: 1 0 100%;
-  margin-left:auto;
-  margin-right: auto;
-}
+    .div3{
+      order: 1;
+      flex: 1 0 100%;
+    }
+    .div4{
+      margin-left:auto;
+      margin-right: auto;
+      order: 0;
+      flex: 1 0 50%;
+    }
+    .div5{
+      flex: 1 0 100%;
+      margin-left:auto;
+      margin-right: auto;
+    }
 } 
 
 
-.container {
+  .container {
 
-  align-content: flex-start;
-  flex-direction: row;
-  grid-template-columns: 15.78% repeat(2, 1fr) repeat(2, .5fr) repeat(2, 1fr) 15.78%;
-  grid-template-rows: 5% repeat(2, 25%) 15% 30%;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-
-  /* @media only screen and (max-width: 1200px){
-    font-size: 24px;
-  } */
-  }
+    align-content: flex-start;
+    flex-direction: row;
+    grid-template-columns: 15.78% repeat(2, 1fr) repeat(2, .5fr) repeat(2, 1fr) 15.78%;
+    grid-template-rows: 5% repeat(2, 25%) 15% 30%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
   .navbar{
     flex-direction: row-reverse;
     display: flex;
   }
-
-  
-
-
-  
   .div1,.div2{
     display: flex;
     flex-wrap: wrap;
@@ -156,10 +131,6 @@ For large desktop
     flex: 5 8 0%;
     order: 1;
   }
-
-  
-
-
 
 .navbar { grid-area: 1 / 1 / 2 / 9; }
 .div1 { grid-area: 2 / 1 / 4 / 5; }
@@ -224,19 +195,20 @@ button.button{
 }
 /* DIV 1  */
 div.Div1grouped,.Div2grouped{
-  padding: 5%;
+
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
-
+div.Div1grouped{
+  margin-left: 200px;
+}
 .Div2grouped{
-  padding: 5%;
-
+  margin-left: 101px;
+  padding: 50px;
 }
 .div1{
   align-content: center;
-  /* padding-left: 32%;
-  padding-top: 18%; */
+  
 }
 .div2{
   align-content: center;
@@ -248,8 +220,8 @@ div.div1title{
 }
 
  .div1Pa,.div1Pb{
-
-  color: #6d80a9
+  font-size: 14px;
+  color: #6d80a9;
 }
 
 
@@ -281,26 +253,16 @@ button.Div1Button{
 /* Div 2 */
 
 .white-box{
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-  /* margin-inline-start: auto;
-  margin-inline-end: auto;
-  align-content: center; */
-  /* margin-left: 40%; */
+  padding-right: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2px;
   border-radius: 4px;
   background:white;
 
 }
-.white-box-Alignment{
-  /* align-content: center;
-  margin: 20px; */
-}
+
 .div2Text{
-  margin-top: 3%;
-  font-weight: bolder;
-  font-size: 20px;
   color: #556382;
   font-family: 'Lato', sans-serif;
   padding: 2%;
@@ -314,12 +276,12 @@ color: #556382;
 
 .currency,.currValue{
   width: 44%;
-  padding: 9px;
-  font-family: 'Lato', sans-serif;
-  color: black;
-  background-color:white;
-  border: 1px solid;
-  border-color:whitesmoke;
+    padding: 4px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-color: whitesmoke;
 }
 .currency {
   border-top-left-radius: 4px;
@@ -335,17 +297,16 @@ color: #556382;
   margin-left:-10px;
 }
 .covTextdiv2{
-margin-top: 4%;
-font-size: 18px;
-padding-bottom: 5px;
+  margin-top: 4%;
+  font-size: 13px;
 }
 .covText{color:rgb(30, 46, 80);}
 .covText2{ color:#2083fe;}
 
 input#Div2Button{
-margin-top: 2%;
-padding: 10px;
-width: 99%;
+  margin-top: 2%;
+  padding: 4px;
+  width: 99%;
 }
 
 /* DIV 3 */
@@ -353,21 +314,21 @@ width: 99%;
 margin-top: 2%; }
 
 div.div3title{
-  font-size: 41px;
-  font-size-adjust: 30px;
-  color: #1e2e50
+  font-size: 25px;
+
+  color: #1e2e50;
 
 }
 
 div.div3content{
-  font-size: 20px;
+  font-size: 14px;
   padding-top:15px;
-  color: #6d80a9
+  color: #6d80a9;
 }
 
 /* div 4 */
 .div4Grouped{
-  margin-left: 10%;
+  margin-left: 200px;
 
 }
 
@@ -385,15 +346,16 @@ font-size: 20px;
 }
 
 .div4text{
+  margin-top: 10px;
 color: #6d80a9;
 font-family: 'Lato', sans-serif;
 }
 
 /* Div 5  */
-
 .div5{
-
+margin-left: 10px;
 }
+
 
 
 .div5nameLabel,.div5emailLabel{
@@ -414,8 +376,8 @@ padding-left: 32%;
 
 input#fname,input#email{
   margin-top: 1%;
-  width: 290px;
-  font-size: 16px;
+  width: 261px;
+  font-size: 12px;
   padding: 10px;
 }
 input#email{
@@ -424,10 +386,10 @@ input#email{
 
 
 textarea#subject{
-  margin: 20px 0px 0px;
-  width: 620px%;
-  height: 59px;
-  font-size: 14px;
+  margin: 07px 0px 0px;
+  width: 604px;
+  height: 50px;
+  font-size: 12px;
 }
 
 .div5button {
