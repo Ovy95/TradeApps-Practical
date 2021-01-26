@@ -40,16 +40,12 @@ For typical desktop
   float: none;
   align-content: center;
 }
-
-
-  
-
 .div3{
-
   order: 1;
   flex: 1 0 100%;
 }
 .div4{
+  
   order: 1;
   flex: 1 0 100%;
 }
@@ -71,14 +67,23 @@ For typical desktop
       flex-wrap: wrap;
       flex-direction: row;
     }
+    .topsection{
+      background-color: #2083fe;
+    }
 
     .topsection,.bottomSection{
-      align-content: center;
+      flex: 0 40 55%;
+
       flex-direction: column;
     }
   
     .div1{
-    display: grid;
+    padding-right: 140px;
+    margin-right: 1px;
+    }
+    
+    .div2{
+      padding-left: 18px;
     }
 
     .div3{
@@ -86,15 +91,12 @@ For typical desktop
       flex: 1 0 100%;
     }
     .div4{
-      margin-left:auto;
-      margin-right: auto;
+      margin-right: 100px;
       order: 0;
       flex: 1 0 50%;
     }
     .div5{
       flex: 1 0 100%;
-      margin-left:auto;
-      margin-right: auto;
     }
 } 
 
