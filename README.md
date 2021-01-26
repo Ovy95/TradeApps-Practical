@@ -42,4 +42,13 @@ I learn a lot about RWD which is something I need to work on to improve.
 Implementing the email was fairly simple as I used FormAction for this, along with creating a validation step.
 The convector was simple to set up as this is just using JS method taking in the value entered in from the page.
 
+## Features 
+
+![2021-01-26 19 13 37](https://user-images.githubusercontent.com/57540755/105893741-5ca29e00-600b-11eb-8578-9e615e3c6092.gif)
+
+![2021-01-26 19 23 04](https://user-images.githubusercontent.com/57540755/105894678-6ed10c00-600c-11eb-838c-95b16b40b281.gif)
+
+<img width="1079" alt="Screenshot 2021-01-26 at 19 28 10" src="https://user-images.githubusercontent.com/57540755/105894864-ab046c80-600c-11eb-8ca5-784648c59431.png">
+
+
 
