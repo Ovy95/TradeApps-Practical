@@ -160,9 +160,11 @@ input[type="submit"] {
 }
 /* Navbar CSS */
 .navbarID{
-  margin-right: 11%;
-  padding-top: 4px;
-  font-size: 14px;
+margin-top: 10px;
+font-size: 14px;
+}
+.navbarContainer{
+  margin-right: 134px;
 }
 .Navbar{
   align-content: center;
@@ -172,7 +174,7 @@ input[type="submit"] {
   padding-top: 10px;
 }
 a.Navbar{
-  padding: 20px;
+  padding: 11.5px;
 }
 a.Navbar:link{
   text-decoration: none;
@@ -186,8 +188,8 @@ button.button{
   background-color:white;
   border-color: blue;
   font-family: 'Lato', sans-serif;
-  width: 11%;
-  padding: 1%;
+  width: 60px;
+  padding: 2px;
 
 }
 .topsection,.bottomSection{
