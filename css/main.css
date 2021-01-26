@@ -27,48 +27,62 @@ For typical desktop
 
 
 
-@media only screen and (min-width: 601px) and (max-width: 979px) {
+@media only screen and (min-width: 621px) and (max-width: 768px) {
   .container{
-    
+    flex-direction: column;
     overflow-y: scroll;
     flex-wrap: wrap;
-    flex-direction: row;
+
+  }
+  .navbarContainer{
+    margin-inline-end: 400px;
+    padding-right: 80px;
+  }
+
+  .topsection,.bottomSection{
+
+    flex-direction: column;
+  }
+
+  .div1{
+  padding-right: 200px;
   }
   
+  .div2{
 
-.div1{
-  float: none;
-  align-content: center;
-}
-.div3{
-  order: 1;
-  flex: 1 0 100%;
-}
-.div4{
-  
-  order: 1;
-  flex: 1 0 100%;
-}
-.div5{
-  order: 2;
-  flex: 1 0 100%;
-}
+    padding-left: 50px;
+  }
+
+  .div3{
+    order: 1;
+    flex: 1 0 100%;
+  }
+  .div4{
+
+    padding-right: 300px;
+
+    order: 0;
+    flex: 1 2 75%;
+  }
+  .div5{
+    flex: 1 0 100%;
+  }
+
  
 }
 
 
 /* Div Boarders Top half*/
 @media (max-width: 620px) {
-  
-    .container{
 
+    .container{
       flex-direction: column;
       overflow-y: scroll;
       flex-wrap: wrap;
       flex-direction: row;
     }
     .topsection{
-      background-color: #2083fe;
+
     }
 
     .topsection,.bottomSection{
@@ -90,19 +104,18 @@ For typical desktop
       order: 1;
       flex: 1 0 100%;
     }
-    .div4{
+    /* .div4{
       margin-right: 100px;
       order: 0;
       flex: 1 0 50%;
     }
     .div5{
       flex: 1 0 100%;
-    }
+    } */
 } 
 
 
   .container {
-
     align-content: flex-start;
     flex-direction: row;
     grid-template-columns: 15.78% repeat(2, 1fr) repeat(2, .5fr) repeat(2, 1fr) 15.78%;
