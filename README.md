@@ -30,16 +30,13 @@ We recommend that you try to create the website without any CSS Frameworks, I.E 
 
 ## Summary of the task
 
-I learnt a lot from the task using tools using all different tools to help me alone the way. I feel like my approach at the start wasn't great as I was trying to get everything in position from the very start. I also used the wrong amount of Grid divs at the start which didn't help when it came to trying to match the bottom section. I draw grid borderlines on the page to match these up, this was both using the chrome Impact tools.
+I learnt a lot from the task using tools using all different tools to help me along the way. I feel like my approach at the start wasn't great as I was trying to get everything in position from the very start. I also used the wrong amount of Grid divs at the start which didn't help when it came to trying to match the bottom section. I draw grid borderlines on the page to match these up, this was both using the chrome Impact tools.
 
-I didn't use chrome Impact tools at the start, by not doing so I felt like I wasted so much time as it was mostly guesswork as the pixel width was different each time I was trying to line it up, due to the screen from editing. 
+I didn't use chrome Impact tools at the start, by not doing so I felt like I wasted so much time as it was mostly guesswork as the pixel width was different each time I was trying to line it up, due to the screen from editing.
 
-Using the chrome tools helped me a lot as I was about to edit the page online, then copy over the changes to my code editor.  Rather than guessing on my code editor then refreshing the page to see the difference.
+Using the chrome tools helped me a lot as I was about to edit the page online, then copy over the changes to my code editor. Rather than guessing on my code editor then refreshing the page to see the difference.
 
-My approach next time would be to get all the content on the screen matching up first. Then try to scale it to the website, rather than do a bit of both. I lost a fair bit of time because of this. 
-I learn a lot about RWD which is something I need to work on to improve.
-Implementing the email was fairly simple as I used FormAction for this, along with creating a validation step.
-The convector was simple to set up as this is just using JS method taking in the value entered in from the page.
+My approach next time would be to get all the content on the screen matching up first. Then try to scale it to the website, rather than do a bit of both. I lost a fair bit of time because of this. I learn a lot about RWD which is something I need to work on to improve. Implementing the email was fairly simple as I used FormAction for this, along with creating a validation step. The convector was simple to set up was a simple Javascript method.
 
 ## Features 
 
