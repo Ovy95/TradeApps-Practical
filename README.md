@@ -1,6 +1,6 @@
 # Trade Apps Tech Test
 Instructions
-We would like for you to recreate the screenshot (website.png) in HTML and CSS to the best of your ability.
+We would like for you to recreate the screenshot (below) in HTML and CSS to the best of your ability.
 In the folder, there are 2 sections
 
 - A screenshot of the website that we would like you to recreate
@@ -18,20 +18,24 @@ We recommend that you try to create the website without any CSS Frameworks, I.E 
 ## Image to recreate
 ![Website](https://user-images.githubusercontent.com/57540755/105889373-ff581e00-6005-11eb-8b75-a43842653cd1.png)
 
+
+
 Best viewing Dimentions 
 1200x800
 620 width for RWD
 
 ## Features Implemented 
-- ContactForm is responsive 
-- ContactForm also has validation to check if a Name, Email and Message is inserted before sending. A Warning will appear on screen if not
-- USD to Btc & BTC to USD both work interactive when entering a number
-- Responsive Web Design works best at 600 pixth width
-- navbar Home link is set along with Underlining when hovering over image. 
+- [x] ContactForm is responsive 
+- [x] ContactForm also has validation to check if a Name, Email and Message is inserted before sending. A Warning will appear on screen if not
+- [x] USD to Btc & BTC to USD both work interactive when entering a number
+- [x] Responsive Web Design works best at 600 pixth width
+- [x] navbar Home link is set along with Underlining when hovering over image. 
+
+
 
 ## Summary of the task
 
-I learnt a lot from the task using tools like Grid and Flex. I feel like my approach at the start wasn't great as I was trying to get everything in position from the very start. I also used the wrong amount of Grid divs at the start which didn't help when it came to trying to match the bottom section. I draw grid borderlines on the page to match these up, this was both using the chrome Impact tools.
+I learnt a lot from the task using tools using all different tools to help me alone the way. I feel like my approach at the start wasn't great as I was trying to get everything in position from the very start. I also used the wrong amount of Grid divs at the start which didn't help when it came to trying to match the bottom section. I draw grid borderlines on the page to match these up, this was both using the chrome Impact tools.
 
 I didn't use chrome Impact tools at the start, by not doing so I felt like I wasted so much time as it was mostly guesswork as the pixel width was different each time I was trying to line it up, due to the screen from editing. 
 
@@ -44,19 +48,27 @@ The convector was simple to set up as this is just using JS method taking in the
 
 ## Features 
 
-### Validating 
+### Validating Name, Email & Message
 ![2021-01-26 19 13 37](https://user-images.githubusercontent.com/57540755/105893741-5ca29e00-600b-11eb-8578-9e615e3c6092.gif)
 
-### Contact form
+### Using the contact form
 
 ![2021-01-26 19 23 04](https://user-images.githubusercontent.com/57540755/105894678-6ed10c00-600c-11eb-838c-95b16b40b281.gif)
-<img width="1079" alt="Screenshot 2021-01-26 at 19 28 10" src="https://user-images.githubusercontent.com/57540755/105894864-ab046c80-600c-11eb-8ca5-784648c59431.png">
+<img width="800" alt="Screenshot 2021-01-26 at 19 28 10" src="https://user-images.githubusercontent.com/57540755/105894864-ab046c80-600c-11eb-8ca5-784648c59431.png">
+
 
 
 ### Interactive convecter
 
 
 ![2021-01-26 19 34 39](https://user-images.githubusercontent.com/57540755/105895700-be640780-600d-11eb-8368-a4ef52ebbf8a.gif)
+
+
+## My Attempt 
+- Best view using 1200 x 800
+- Also for RWP view use 600 Pixel width
+
+![Screenshot 2021-01-27 at 09 15 22](https://user-images.githubusercontent.com/57540755/105971503-821ebe80-6082-11eb-8659-b540c52b5391.png)
 
 
 
