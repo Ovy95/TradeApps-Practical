@@ -19,17 +19,12 @@ We recommend that you try to create the website without any CSS Frameworks, I.E 
 ![Website](https://user-images.githubusercontent.com/57540755/105889373-ff581e00-6005-11eb-8b75-a43842653cd1.png)
 
 
-
-Best viewing Dimentions 
-1200x800
-620 width for RWD
-
 ## Features Implemented 
 - [x] ContactForm is responsive 
 - [x] ContactForm also has validation to check if a Name, Email and Message is inserted before sending. A Warning will appear on screen if not
 - [x] USD to Btc & BTC to USD both work interactive when entering a number
 - [x] Responsive Web Design works best at 600 pixth width
-- [x] navbar Home link is set along with Underlining when hovering over image. 
+- [x] navbar Home link is set along with Underlining when hovering over links. 
 
 
 
